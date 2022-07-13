@@ -1,0 +1,22 @@
+{
+  "name": "j2fpjeparse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node node_modules/moleculer/bin/moleculer-runner.js services",
+    "test": "jest --testMatch **/test/**/*.test.js --coverage --no-cache"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^27.5.1",
+    "lodash": "^4.17.21",
+    "moleculer": "^0.14.19",
+    "moleculer-db": "^0.8.17",
+    "moleculer-db-adapter-mongo": "^0.4.14",
+    "moleculer-io": "^2.0.0",
+    "socket.io": "^4.5.1"
+  }
+}
